@@ -24,9 +24,9 @@ displayName="One's Blocks" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to Harry Talks for teaching me java." #optional
+credits="Thanks to Harry Talks for teaching me modding." #optional
 # A text field displayed in the mod UI
-authors="bajtix" #optional
+authors="bajtix, dragster, Szmebuldog" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Some text i guess
