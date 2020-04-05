@@ -56,6 +56,7 @@ public class MainClass
                     //Items
                     ItemList.sandstone_dust.setRegistryName(location("sandstone_dust")),
                     ItemList.sandstone_brick.setRegistryName(location("sandstone_brick")),
+                    ItemList.tin_ingot.setRegistryName(location("tin_ingot")),
 
 
 

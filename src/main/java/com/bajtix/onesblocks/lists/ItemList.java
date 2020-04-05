@@ -15,4 +15,8 @@ public class ItemList {
             .group(MainClass.mainGroup)
     );
 
+    public static Item tin_ingot = new Item(new Item.Properties()
+            .group(MainClass.mainGroup)
+    );
+
 }

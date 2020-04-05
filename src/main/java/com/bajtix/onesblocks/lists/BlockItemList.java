@@ -15,6 +15,10 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     );
 
+    public static Item sandstone_bricks_stairs = new BlockItem(BlockList.sandstone_bricks_stairs, new Item.Properties()
+            .group(MainClass.mainGroup)
+    );
+
 
     //Ore blocks
     public static Item elfium_ore = new BlockItem(BlockList.elfium_ore, new Item.Properties()

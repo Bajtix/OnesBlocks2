@@ -1,8 +1,12 @@
 package com.bajtix.onesblocks.lists;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
+
+import java.util.function.Supplier;
 
 
 public class BlockList {
@@ -17,6 +21,7 @@ public class BlockList {
             .hardnessAndResistance(2.0f,3.0f)
             .sound(SoundType.STONE)
     );
+
 
 
     //Ores
