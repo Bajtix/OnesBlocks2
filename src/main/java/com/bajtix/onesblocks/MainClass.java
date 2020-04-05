@@ -21,7 +21,7 @@ public class MainClass
     public static MainClass instance;
     public static final String modid  = "onesblocks2";
     private static final Logger logger = LogManager.getLogger(modid);
--
+
     public MainClass() {
         instance = this;
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -45,7 +45,8 @@ public class MainClass
         public static void registerItems(final RegistryEvent.Register<Item> event)
         {
             event.getRegistry().registerAll(
-                    ItemList.sandstone_dust.setRegistryName(location("sandstone_dust"))
+                    ItemList.sandstone_dust.setRegistryName(location("sandstone_dust")),
+                    ItemList.sandstone_brick.setRegistryName(location("sandstone_brick"))
             );
 
             logger.info("Items registered");

@@ -9,4 +9,8 @@ public class ItemList
     public static Item sandstone_dust = new Item(new Item.Properties()
             .group(ItemGroup.MISC)
     );
+
+    public static Item sandstone_brick = new Item(new Item.Properties()
+            .group(ItemGroup.MISC)
+    );
 }
