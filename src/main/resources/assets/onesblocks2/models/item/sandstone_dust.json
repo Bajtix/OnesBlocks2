@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0" : "onesblocks2:item/[nazwatekstury]"
+    "layer0" : "onesblocks2:item/sandstone_dust"
   }
 }
