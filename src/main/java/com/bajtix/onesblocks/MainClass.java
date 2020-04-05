@@ -1,6 +1,8 @@
 package com.bajtix.onesblocks;
 
+import com.bajtix.onesblocks.lists.BlockList;
 import com.bajtix.onesblocks.lists.ItemList;
+import net.minecraft.block.Block;
 import net.minecraft.dispenser.ILocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -46,10 +48,18 @@ public class MainClass
         {
             event.getRegistry().registerAll(
                     ItemList.sandstone_dust.setRegistryName(location("sandstone_dust")),
-                    ItemList.sandstone_brick.setRegistryName(location("sandstone_brick"))
+                    ItemList.sandstone_brick.setRegistryName(location("sandstone_brick")),
+                    ItemList.sandstone_bricks.setRegistryName(location("sandstone_bricks"))
             );
 
             logger.info("Items registered");
+        }
+
+        public static void registerBlocks(final RegistryEvent.Register<Block> event)
+        {
+            event.getRegistry().registerAll(
+                    BlockList.sandstone_bricks.setRegistryName(location("sandstone_bricks"))
+            );
         }
 
         private static ResourceLocation location(String name)
