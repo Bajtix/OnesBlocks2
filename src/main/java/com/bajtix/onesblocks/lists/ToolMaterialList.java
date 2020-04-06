@@ -5,11 +5,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum ToolMaterialList implements IItemTier {
-    sandstone(5f,4f, 128, 1, 25, ItemList.sandstone_brick);
+    sandstone(0f, 10f, 1, 1, 1, ItemList.sandstone_brick);
 
 
-
-    private float attackDamage,efficiency;
+    private float attackDamage, efficiency;
     private int durability, harvestLevel, enchantability;
     private Item repairMaterial;
 
@@ -23,7 +22,7 @@ public enum ToolMaterialList implements IItemTier {
     }
 
     public float getAttackDamage() {
-        return attackDamage;
+        return attackDamage - 1;
     }
 
     @Override
