@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "onesblocks2:block/alloy_smelter_on_top",
+        "down": "onesblocks2:block/alloy_smelter_on_bottom",
+        "north": "onesblocks2:block/alloy_smelter_on_side_a",
+        "east": "onesblocks2:block/alloy_smelter_on_side_b",
+        "west": "onesblocks2:block/alloy_smelter_on_side_c",
+        "south": "onesblocks2:block/alloy_smelter_on_side_d"
+    }
+}
