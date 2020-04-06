@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "onesblocks2:item/sandstone_sword"
+        "layer0": "onesblocks2:item/tin_axe"
     }
 }
