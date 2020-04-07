@@ -57,6 +57,10 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("elfium_block"));
 
+    public static Item bronze_block = new BlockItem(BlockList.bronze_block, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("bronze_block"));
+
     public static Item[] items = new Item[]{
             sandstone_bricks,
             mossy_stone,
@@ -68,6 +72,7 @@ public class BlockItemList {
             titanium_block,
             mithril_block,
             tin_block,
-            elfium_block
+            elfium_block,
+            bronze_block
     };
 }

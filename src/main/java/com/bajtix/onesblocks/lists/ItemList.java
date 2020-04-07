@@ -1,9 +1,7 @@
 package com.bajtix.onesblocks.lists;
 
 import com.bajtix.onesblocks.MainClass;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class ItemList {
 
@@ -27,14 +25,19 @@ public class ItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("elfium"));
 
+    public static Item bronze_ingot = new Item(new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("bronze_ingot"));
+
 
     public static Item[] items = new Item[]
-    {
-            sandstone_dust,
-            sandstone_brick,
-            tin_ingot,
-            elfium,
-            mithril_ingot
-    };
+            {
+                    sandstone_dust,
+                    sandstone_brick,
+                    tin_ingot,
+                    elfium,
+                    mithril_ingot,
+                    bronze_ingot
+            };
 
 }
