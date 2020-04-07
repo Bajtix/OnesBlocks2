@@ -1,6 +1,7 @@
 package com.bajtix.onesblocks.world;
 
 import com.bajtix.onesblocks.lists.BlockList;
+import net.minecraft.block.pattern.BlockMatcher;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;
@@ -30,9 +31,9 @@ public class OreGeneration {
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.func_225566_b_(
                             new OreFeatureConfig(
-                                    OreFeatureConfig.FillerBlockType.NATURAL_STONE/*FillerBlockType.create("onesblocks2:mossy_stone","onesblocks2:mossy_stone", new BlockMatcher(BlockList.mossy_stone))*/,
+                                    OreFeatureConfig.FillerBlockType.create("MOSSY_STONE", "onesblocks2:mossy_stone", new BlockMatcher(BlockList.mossy_stone)),
                                     BlockList.elfium_ore.getDefaultState(),
-                                    6 //per vein
+                                    40 //per vein
                             )
                     ).func_227228_a_(elfiumOreConfig)
             );
