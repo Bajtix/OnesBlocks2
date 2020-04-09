@@ -4,9 +4,8 @@ import com.bajtix.onesblocks.lists.BlockItemList;
 import com.bajtix.onesblocks.lists.BlockList;
 import com.bajtix.onesblocks.lists.ItemList;
 import com.bajtix.onesblocks.lists.ToolItemsList;
+import com.bajtix.onesblocks.world.OreGeneration;
 import net.minecraft.block.Block;
-import net.minecraft.dispenser.ILocation;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
@@ -16,8 +15,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.IForgeRegistryEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -57,13 +56,17 @@ public class MainClass
             event.getRegistry().registerAll(ToolItemsList.tools);
             logger.info("Items registered");
         }
+
         @SubscribeEvent
-        public static void registerBlocks(final RegistryEvent.Register<Block> event)
-        {
+        public static void registerBlocks(final RegistryEvent.Register<Block> event) {
             event.getRegistry().registerAll(BlockList.blocks);
             logger.info("Blocks registered");
         }
 
+        @SubscribeEvent
+        public static void loadCompleteEvent(FMLLoadCompleteEvent event) {
+            OreGeneration.setupOreGeneration();
+        }
 
     }
     public static ResourceLocation location(String name)

@@ -5,11 +5,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum ToolMaterialList implements IItemTier {
-    sandstone(5f,4f, 128, 1, 25, ItemList.sandstone_brick);
+    /*
+    WOOD    Harvest Level 0   Durability 59     Efficiency 2.0F    Attack Damage 0.0F  Enchantability 15
+    STONE   Harvest Level 1   Durability 131    Efficiency 4.0F    Attack Damage 1.0F  Enchantability 5
+    IRON    Harvest Level 2   Durability 250    Efficiency 6.0F    Attack Damage 2.0F  Enchantability 14
+    DIAMOND Harvest Level 3   Durability 1561   Efficiency 8.0F    Attack Damage 3.0F  Enchantability 10
+    GOLD    Harvest Level 0   Durability 32     Efficiency 12.0F   Attack Damage 0.0F  Enchantability 22
+    */
+
+    sandstone(2f, 2.1f, 120, 1, 8, ItemList.sandstone_brick);
 
 
-
-    private float attackDamage,efficiency;
+    //region Definition
+    private float attackDamage, efficiency;
     private int durability, harvestLevel, enchantability;
     private Item repairMaterial;
 
@@ -23,7 +31,7 @@ public enum ToolMaterialList implements IItemTier {
     }
 
     public float getAttackDamage() {
-        return attackDamage;
+        return attackDamage - 1;
     }
 
     @Override
@@ -46,4 +54,5 @@ public enum ToolMaterialList implements IItemTier {
     public Ingredient getRepairMaterial() {
         return Ingredient.fromItems(repairMaterial);
     }
+    //endregionini
 }
