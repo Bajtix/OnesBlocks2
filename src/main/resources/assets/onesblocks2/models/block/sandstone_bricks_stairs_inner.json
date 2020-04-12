@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs_inner",
+  "parent": "block/inner_stairs",
   "textures": {
     "bottom": "onesblocks2:block/sandstone_bricks",
     "top": "onesblocks2:block/sandstone_bricks",

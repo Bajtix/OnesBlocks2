@@ -16,6 +16,17 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("mossy_stone"));
 
+    public static Item vase = new BlockItem(BlockList.vase, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("vase"));
+
+    public static Item sandstone_bricks_stairs = new BlockItem(BlockList.sandstone_bricks_stairs, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("sandstone_bricks_stairs"));
+
+    public static Item sandstone_bricks_slab = new BlockItem(BlockList.sandstone_bricks_slab, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("sandstone_bricks_slab"));
 
 
     //Ore blocks
@@ -64,6 +75,7 @@ public class BlockItemList {
     public static Item[] items = new Item[]{
             sandstone_bricks,
             mossy_stone,
+            sandstone_bricks_stairs,
             elfium_ore,
             mithril_ore,
             copper_ore,
@@ -73,6 +85,8 @@ public class BlockItemList {
             mithril_block,
             tin_block,
             elfium_block,
-            bronze_block
+            bronze_block,
+            vase,
+            sandstone_bricks_slab
     };
 }
