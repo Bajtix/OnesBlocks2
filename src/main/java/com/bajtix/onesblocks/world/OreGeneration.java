@@ -16,7 +16,7 @@ public class OreGeneration {
     public static void setupOreGeneration() {
         for (Biome biome : ForgeRegistries.BIOMES) {
             //Count range config: [Vein count] [Min height] [Min height] [Max height]
-            ConfiguredPlacement mossyStoneConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(10, 20, 20, 100));
+            ConfiguredPlacement mossyStoneConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(4, 20, 20, 100));
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.func_225566_b_(
                             new OreFeatureConfig(
@@ -27,13 +27,13 @@ public class OreGeneration {
                     ).func_227228_a_(mossyStoneConfig)
             );
 
-            ConfiguredPlacement elfiumOreConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(10, 10, 10, 100));
+            ConfiguredPlacement elfiumOreConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(2, 10, 10, 100));
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.func_225566_b_(
                             new OreFeatureConfig(
                                     OreFeatureConfig.FillerBlockType.create("MOSSY_STONE", "onesblocks2:mossy_stone", new BlockMatcher(BlockList.mossy_stone)),
                                     BlockList.elfium_ore.getDefaultState(),
-                                    40 //per vein
+                                    3 //per vein
                             )
                     ).func_227228_a_(elfiumOreConfig)
             );

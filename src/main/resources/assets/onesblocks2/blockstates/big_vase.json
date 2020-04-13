@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "onesblocks2:block/big_vase_ns"
+    },
+    "facing=south": {
+      "model": "onesblocks2:block/big_vase_ns"
+    },
+    "facing=east": {
+      "model": "onesblocks2:block/big_vase_ew"
+    },
+    "facing=west": {
+      "model": "onesblocks2:block/big_vase_ew"
+    }
+  }
+}

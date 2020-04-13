@@ -1,19 +1,56 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:jump": 6,
-      "minecraft:time_since_rest": 3995,
-      "minecraft:crouch_one_cm": 205,
-      "minecraft:play_one_minute": 3995,
-      "minecraft:leave_game": 1,
-      "minecraft:sprint_one_cm": 1344,
-      "minecraft:time_since_death": 3995,
-      "minecraft:walk_one_cm": 1859,
-      "minecraft:sneak_time": 312,
-      "minecraft:fly_one_cm": 98959
+    "minecraft:picked_up": {
+      "minecraft:scaffolding": 154,
+      "minecraft:arrow": 1,
+      "minecraft:sand": 13,
+      "minecraft:stone_button": 1
     },
     "minecraft:used": {
-      "minecraft:bedrock": 4
+      "minecraft:piston": 4,
+      "minecraft:white_wool": 8,
+      "minecraft:bedrock": 29,
+      "minecraft:debug_stick": 414,
+      "minecraft:torch": 12,
+      "minecraft:water_bucket": 9,
+      "minecraft:sand": 239,
+      "minecraft:diamond_sword": 7,
+      "minecraft:red_carpet": 7,
+      "onesblocks2:vase": 40,
+      "minecraft:snow": 199,
+      "onesblocks2:copper_ore": 2,
+      "minecraft:flint_and_steel": 1,
+      "minecraft:dead_bush": 6,
+      "minecraft:scaffolding": 379,
+      "minecraft:acacia_trapdoor": 1,
+      "minecraft:sandstone_slab": 9,
+      "minecraft:stone_button": 4,
+      "minecraft:smooth_sandstone": 40,
+      "minecraft:cactus": 3,
+      "minecraft:campfire": 8,
+      "minecraft:chest": 1,
+      "onesblocks2:sandstone_bricks_slab": 121,
+      "minecraft:stone_pressure_plate": 1,
+      "minecraft:cut_sandstone": 1,
+      "onesblocks2:sandstone_bricks": 97,
+      "onesblocks2:sandstone_bricks_stairs": 145,
+      "onesblocks2:big_vase": 161
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 128034,
+      "minecraft:crouch_one_cm": 57200,
+      "minecraft:play_one_minute": 128034,
+      "minecraft:sprint_one_cm": 28325,
+      "minecraft:walk_one_cm": 178627,
+      "minecraft:sneak_time": 28288,
+      "minecraft:walk_under_water_one_cm": 367,
+      "minecraft:jump": 823,
+      "minecraft:damage_dealt": 391,
+      "minecraft:leave_game": 68,
+      "minecraft:walk_on_water_one_cm": 1493,
+      "minecraft:time_since_death": 128034,
+      "minecraft:climb_one_cm": 9514,
+      "minecraft:fly_one_cm": 568429
     }
   },
   "DataVersion": 2230

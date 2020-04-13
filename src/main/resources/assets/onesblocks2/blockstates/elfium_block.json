@@ -1,5 +1,7 @@
 {
-  "variants": {
-    "": { "model": "onesblocks2:block/elfium_block" }
+  "variants": 
+    "": {
+      "model": "onesblocks2:block/elfium_block"
+    }
   }
 }
