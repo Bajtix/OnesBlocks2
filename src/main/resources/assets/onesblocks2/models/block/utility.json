@@ -1,0 +1,9 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "onesblocks2:block/vase",
+    "particle": "onesblocks2:block/vase"
+  },
+  "elements": [
+  ]
+}

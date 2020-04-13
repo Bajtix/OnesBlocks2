@@ -20,6 +20,10 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("vase"));
 
+    public static Item big_vase = new BlockItem(BlockList.big_vase, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("big_vase"));
+
     public static Item sandstone_bricks_stairs = new BlockItem(BlockList.sandstone_bricks_stairs, new Item.Properties()
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("sandstone_bricks_stairs"));
@@ -87,6 +91,7 @@ public class BlockItemList {
             elfium_block,
             bronze_block,
             vase,
+            big_vase,
             sandstone_bricks_slab
     };
 }

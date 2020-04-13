@@ -1,10 +1,10 @@
-package com.bajtix.onesblocks.blocks;
+package com.bajtix.onesblocks.utility;
 
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 
-public class Utility {
+public class BlocksUtilities {
     public static VoxelShape rotateShape(Direction from, Direction to, VoxelShape shape) {
         VoxelShape[] buffer = new VoxelShape[]{shape, VoxelShapes.empty()};
 

@@ -27,7 +27,7 @@ public class VaseBlocks extends Block {
 
     public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     private static final Optional<VoxelShape> SHAPE = Stream.of(
-            Block.makeCuboidShape(2, 2, 0, 14, 1, 14)
+            Block.makeCuboidShape(2, 0, 2, 14, 5, 14)
     ).reduce((v1, v2) -> {
         return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
     });
