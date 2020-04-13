@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "onesblocks2:block/mossy_stone"
-    }
+    "": { "model": "onesblocks2:block/mossy_stone" }
   }
 }
