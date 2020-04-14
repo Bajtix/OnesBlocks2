@@ -22,18 +22,18 @@ public class OreGeneration {
                             new OreFeatureConfig(
                                     OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockList.mossy_stone.getDefaultState(),
-                                    60 //per vein
+                                    30 //per vein
                             )
                     ).func_227228_a_(mossyStoneConfig)
             );
 
-            ConfiguredPlacement elfiumOreConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(2, 10, 10, 100));
+            ConfiguredPlacement elfiumOreConfig = Placement.COUNT_RANGE.func_227446_a_(new CountRangeConfig(3, 10, 10, 100));
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.func_225566_b_(
                             new OreFeatureConfig(
                                     OreFeatureConfig.FillerBlockType.create("MOSSY_STONE", "onesblocks2:mossy_stone", new BlockMatcher(BlockList.mossy_stone)),
                                     BlockList.elfium_ore.getDefaultState(),
-                                    3 //per vein
+                                    4 //per vein
                             )
                     ).func_227228_a_(elfiumOreConfig)
             );

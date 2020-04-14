@@ -1,17 +1,15 @@
 package com.bajtix.onesblocks.blocks;
 
 import com.bajtix.onesblocks.ModTileEntityTypes;
-import com.bajtix.onesblocks.lists.BlockList;
+import com.bajtix.onesblocks.tileentities.DoubleVaseTileEntity;
 import com.bajtix.onesblocks.utility.BlocksUtilities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.HorizontalBlock;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.tileentity.TileEntity;
@@ -22,10 +20,9 @@ import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.world.Explosion;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
-import net.minecraft.world.server.ServerWorld;
+import net.minecraftforge.fml.network.NetworkHooks;
 
 import javax.annotation.Nullable;
 import java.util.Optional;
@@ -111,28 +108,22 @@ public class DoubleVaseBlock extends Block {
     @Override
     public ActionResultType func_225533_a_(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockRayTraceResult result) {
         if (!world.isRemote) {
-            ServerWorld worldIn = (ServerWorld) world;
-            LightningBoltEntity bolt = new LightningBoltEntity(worldIn, pos.getX(), pos.getY(), pos.getZ(), false);
-            worldIn.addLightningBolt(bolt);
+            TileEntity tile = world.getTileEntity(pos);
+            if (tile instanceof DoubleVaseTileEntity) {
+                NetworkHooks.openGui((ServerPlayerEntity) player, (DoubleVaseTileEntity) tile, pos);
+            }
+            return ActionResultType.SUCCESS;
         }
-
-        return ActionResultType.SUCCESS;
+        return ActionResultType.FAIL;
     }
 
     @Override
-    public void onBlockPlacedBy(World world, BlockPos pos, BlockState state, @Nullable LivingEntity p_180633_4_, ItemStack p_180633_5_) {
-        world.setBlockState(pos.offset(Direction.UP, 1), BlockList.utility_space.getDefaultState());
-        super.onBlockPlacedBy(world, pos, state, p_180633_4_, p_180633_5_);
-    }
-
-    @Override
-    public void onBlockHarvested(World world, BlockPos pos, BlockState state, PlayerEntity player) {
-        world.setBlockState(pos.offset(Direction.UP, 1), Blocks.AIR.getDefaultState());
-        super.onBlockHarvested(world, pos, state, player);
-    }
-
-    @Override
-    public void onBlockExploded(BlockState state, World world, BlockPos pos, Explosion explosion) {
-        world.setBlockState(pos.offset(Direction.UP, 1), Blocks.AIR.getDefaultState());
+    public void onReplaced(BlockState state, World worldIn, BlockPos pos, BlockState newState, boolean isMoving) {
+        if (state.getBlock() != newState.getBlock()) {
+            TileEntity te = worldIn.getTileEntity(pos);
+            if (te instanceof DoubleVaseTileEntity) {
+                InventoryHelper.dropItems(worldIn, pos, ((DoubleVaseTileEntity) te).getItems());
+            }
+        }
     }
 }

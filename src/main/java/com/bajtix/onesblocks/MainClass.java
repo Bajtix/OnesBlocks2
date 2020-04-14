@@ -1,9 +1,6 @@
 package com.bajtix.onesblocks;
 
-import com.bajtix.onesblocks.lists.BlockItemList;
-import com.bajtix.onesblocks.lists.BlockList;
-import com.bajtix.onesblocks.lists.ItemList;
-import com.bajtix.onesblocks.lists.ToolItemsList;
+import com.bajtix.onesblocks.lists.*;
 import com.bajtix.onesblocks.world.OreGeneration;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -36,8 +33,9 @@ public class MainClass
         bus.addListener(this::setup);
         bus.addListener(this::clientRegistries);
 
-        ModTileEntityTypes.TILE_ENTITY_TYPES.register(bus);
 
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(bus);
+        ContainerList.CONTAINER_TYPES.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

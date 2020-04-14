@@ -1,6 +1,5 @@
 package com.bajtix.onesblocks.utility;
 
-import com.bajtix.onesblocks.tileentities.DoubleVaseTileEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
@@ -17,9 +16,9 @@ public class NBTHelper {
             return writeItemStack((ItemStack) o);
         }
 
-        if (o instanceof DoubleVaseTileEntity) {
+        /*if (o instanceof DoubleVaseTileEntity) {
             return writeDoubleVase((DoubleVaseTileEntity) o);
-        }
+        }*/
         return null;
     }
 
@@ -30,14 +29,14 @@ public class NBTHelper {
         compoundNBT.putByte("type", (byte) 0);
         return compoundNBT;
     }
-
+    /*
     private static CompoundNBT writeDoubleVase(DoubleVaseTileEntity o) {
         CompoundNBT compoundNBT = new CompoundNBT();
         compoundNBT.putInt("x", o.x);
         compoundNBT.putInt("y", o.y);
         compoundNBT.putInt("z", o.z);
         return compoundNBT;
-    }
+    }*/
 
     @Nullable
     public static Object fromNBT(@Nonnull CompoundNBT compound) {
