@@ -4,10 +4,7 @@ import com.bajtix.onesblocks.MainClass;
 import com.bajtix.onesblocks.blocks.DoubleVaseBlock;
 import com.bajtix.onesblocks.blocks.EmptyUtilityBlock;
 import com.bajtix.onesblocks.blocks.VaseBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 
 
@@ -34,6 +31,23 @@ public class BlockList {
             Block.Properties.from(sandstone_bricks)
     ).setRegistryName(MainClass.location("sandstone_bricks_stairs"));
 
+    public static Block dunestone = new Block(Block.Properties.create(Material.ROCK)
+            .hardnessAndResistance(2.0f, 3.0f)
+            .sound(SoundType.STONE)
+    ).setRegistryName(MainClass.location("dunestone"));
+
+    public static Block dunestone_slab = new SlabBlock(
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("dunestone_slab"));
+
+    public static Block dunestone_stairs = new StairsBlock(() -> sandstone_bricks.getDefaultState(),
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("dunestone_stairs"));
+
+    public static Block dunestone_pillar = new RotatedPillarBlock(
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("dunestone_pillar"));
+
 
     public static Block mossy_stone = new Block(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
@@ -53,7 +67,6 @@ public class BlockList {
             .sound(SoundType.STONE)
             .func_226896_b_()
             .variableOpacity()
-            .doesNotBlockMovement()
     ).setRegistryName(MainClass.location("big_vase"));
 
 
@@ -115,21 +128,32 @@ public class BlockList {
     public static Block[] blocks = new Block[]
             {
                     utility_space,
+
                     sandstone_bricks,
+                    sandstone_bricks_stairs,
+                    sandstone_bricks_slab,
+                    dunestone_pillar,
+
+                    dunestone,
+                    dunestone_stairs,
+                    dunestone_slab,
+
                     mossy_stone,
+
                     vase,
                     big_vase,
+
                     elfium_ore,
                     mithril_ore,
                     titanium_ore,
                     copper_ore,
                     tin_ore,
+
                     titanium_block,
                     mithril_block,
                     tin_block,
                     elfium_block,
-                    bronze_block,
-                    sandstone_bricks_stairs,
-                    sandstone_bricks_slab
+                    bronze_block
+
             };
 }

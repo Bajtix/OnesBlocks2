@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "onesblocks2:block/dunestone_pillar" }
+    "axis=y": {
+      "model": "onesblocks2:block/dunestone_pillar"
+    },
+    "axis=z": {
+      "model": "onesblocks2:block/dunestone_pillar",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "onesblocks2:block/dunestone_pillar",
+      "x": 90,
+      "y": 90
+    }
   }
 }

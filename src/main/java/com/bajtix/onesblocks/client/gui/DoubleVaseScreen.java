@@ -20,7 +20,7 @@ public class DoubleVaseScreen extends ContainerScreen<DoubleVaseContainer> {
         this.guiLeft = 0;
         this.guiTop = 0;
         this.xSize = 174;
-        this.ySize = 220;
+        this.ySize = 239;
     }
 
     @Override
@@ -34,7 +34,7 @@ public class DoubleVaseScreen extends ContainerScreen<DoubleVaseContainer> {
     protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
         super.drawGuiContainerForegroundLayer(mouseX, mouseY);
         this.font.drawString(this.title.getFormattedText(), 8.0f, 6.0f, 4210752);
-        this.font.drawString(this.playerInventory.getDisplayName().getFormattedText(), 8.0f, 90.0f, 4210752);
+        this.font.drawString(this.playerInventory.getDisplayName().getFormattedText(), 8.0f, 146.0f, 4210752);
     }
 
     @Override

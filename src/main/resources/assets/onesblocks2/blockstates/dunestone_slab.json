@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "onesblocks2:block/dunestone_slab"
+    },
+    "type=top": {
+      "model": "onesblocks2:block/dunestone_slab_top"
+    },
+    "type=double": {
+      "model": "onesblocks2:block/dunestone"
+    }
+  }
+}

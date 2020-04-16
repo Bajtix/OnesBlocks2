@@ -99,6 +99,7 @@ public class DoubleVaseBlock extends Block {
         return true;
     }
 
+
     @Nullable
     @Override
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
