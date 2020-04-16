@@ -12,6 +12,31 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("sandstone_bricks"));
 
+    public static Item sandstone_bricks_stairs = new BlockItem(BlockList.sandstone_bricks_stairs, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("sandstone_bricks_stairs"));
+
+    public static Item sandstone_bricks_slab = new BlockItem(BlockList.sandstone_bricks_slab, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("sandstone_bricks_slab"));
+
+    public static Item dunestone = new BlockItem(BlockList.dunestone, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("dunestone"));
+
+    public static Item dunestone_stairs = new BlockItem(BlockList.dunestone_stairs, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("dunestone_stairs"));
+
+    public static Item dunestone_slab = new BlockItem(BlockList.dunestone_slab, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("dunestone_slab"));
+
+    public static Item dunestone_pillar = new BlockItem(BlockList.dunestone_pillar, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("dunestone_pillar"));
+
+
     public static Item mossy_stone = new BlockItem(BlockList.mossy_stone, new Item.Properties()
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("mossy_stone"));
@@ -24,13 +49,7 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("big_vase"));
 
-    public static Item sandstone_bricks_stairs = new BlockItem(BlockList.sandstone_bricks_stairs, new Item.Properties()
-            .group(MainClass.mainGroup)
-    ).setRegistryName(MainClass.location("sandstone_bricks_stairs"));
 
-    public static Item sandstone_bricks_slab = new BlockItem(BlockList.sandstone_bricks_slab, new Item.Properties()
-            .group(MainClass.mainGroup)
-    ).setRegistryName(MainClass.location("sandstone_bricks_slab"));
 
 
     //Ore blocks
@@ -80,6 +99,10 @@ public class BlockItemList {
             sandstone_bricks,
             mossy_stone,
             sandstone_bricks_stairs,
+            dunestone,
+            dunestone_stairs,
+            dunestone_slab,
+            dunestone_pillar,
             elfium_ore,
             mithril_ore,
             copper_ore,

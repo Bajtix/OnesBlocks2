@@ -33,7 +33,7 @@ import javax.annotation.Nullable;
 public class DoubleVaseTileEntity extends LockableLootTileEntity {
 
     protected int numPlayersUsing;
-    private NonNullList<ItemStack> chestContent = NonNullList.withSize(36, ItemStack.EMPTY);
+    private NonNullList<ItemStack> chestContent = NonNullList.withSize(63, ItemStack.EMPTY);
     private IItemHandlerModifiable items = createHandler();
     private LazyOptional<IItemHandlerModifiable> itemHandler = LazyOptional.of(() -> items);
 

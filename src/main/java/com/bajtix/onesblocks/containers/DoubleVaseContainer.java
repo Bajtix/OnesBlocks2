@@ -28,7 +28,7 @@ public class DoubleVaseContainer extends Container {
         int startX = 8;
         int startY = 18;
         int slotSizePlus2 = 18;
-        for (int row = 0; row < 4; row++) {
+        for (int row = 0; row < 7; row++) {
             for (int column = 0; column < 9; column++) {
                 this.addSlot(new Slot(tileEntity, row * 9 + column, startX + (column * slotSizePlus2), startY + (row * slotSizePlus2)));
             }
@@ -36,7 +36,7 @@ public class DoubleVaseContainer extends Container {
 
         //Player inventory
         int startPlayerX = 8;
-        int startPlayerY = 140;
+        int startPlayerY = 158;
 
         for (int row = 0; row < 3; row++) {
             for (int column = 0; column < 9; column++) {
@@ -45,7 +45,7 @@ public class DoubleVaseContainer extends Container {
         }
 
         //Hotbar
-        int hotbarY = 198;
+        int hotbarY = 216;
 
         for (int column = 0; column < 9; column++) {
             this.addSlot(new Slot(playerInventory, column, startPlayerX + (column * slotSizePlus2), hotbarY));
@@ -79,11 +79,11 @@ public class DoubleVaseContainer extends Container {
         if (slot != null && slot.getHasStack()) {
             ItemStack itemStack1 = slot.getStack();
             itemStack = itemStack1.copy();
-            if (index < 36) {
-                if (!this.mergeItemStack(itemStack, 36, this.inventorySlots.size(), true)) {
+            if (index < 63) {
+                if (!this.mergeItemStack(itemStack, 63, this.inventorySlots.size(), true)) {
                     return ItemStack.EMPTY;
                 }
-            } else if (!this.mergeItemStack(itemStack1, 0, 36, false)) {
+            } else if (!this.mergeItemStack(itemStack1, 0, 63, false)) {
                 return ItemStack.EMPTY;
             }
 

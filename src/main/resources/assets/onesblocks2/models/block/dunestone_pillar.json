@@ -1,11 +1,7 @@
 {
-    "parent": "block/cube",
+    "parent": "block/cube_column",
     "textures": {
-        "up": "onesblocks2:block/dunestone_pillar_top",
-        "down": "onesblocks2:block/dunestone_pillar_bottom",
-        "north": "onesblocks2:block/dunestone_pillar_side_a",
-        "east": "onesblocks2:block/dunestone_pillar_side_b",
-        "west": "onesblocks2:block/dunestone_pillar_side_c",
-        "south": "onesblocks2:block/dunestone_pillar_side_d"
+        "end": "onesblocks2:block/dunestone_pillar_connector",
+        "side": "onesblocks2:block/dunestone_pillar_side"
     }
 }
