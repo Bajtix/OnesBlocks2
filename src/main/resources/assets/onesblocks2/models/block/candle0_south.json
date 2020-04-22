@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "Desktop/Bez nazwy-1",
-		"particle": "Desktop/Bez nazwy-1"
-	},
+      "0": "onesblocks2:block/candle_layer_0",
+      "particle": "onesblocks2:block/candle_layer_0"
+    },
 	"elements": [
 		{
 			"from": [6, 0, 8],

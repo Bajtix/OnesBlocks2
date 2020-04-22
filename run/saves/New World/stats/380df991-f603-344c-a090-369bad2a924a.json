@@ -1,14 +1,57 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:scaffolding": 154,
+      "minecraft:cut_sandstone": 1392,
+      "minecraft:torch": 2,
+      "minecraft:sand": 83,
+      "minecraft:stone_button": 1,
+      "onesblocks2:dunestone_stairs": 1,
+      "minecraft:cactus": 1,
+      "minecraft:arrow": 4,
+      "minecraft:bone": 3,
+      "onesblocks2:dunestone_pillar": 2,
+      "minecraft:sea_pickle": 1,
+      "minecraft:creeper_spawn_egg": 1,
+      "onesblocks2:big_vase": 1,
+      "minecraft:chest": 320
+    },
     "minecraft:killed": {
       "minecraft:skeleton": 1,
       "minecraft:creeper": 1
+    },
+    "minecraft:dropped": {
+      "onesblocks2:dunestone_pillar": 2,
+      "minecraft:arrow": 3,
+      "onesblocks2:dunestone_stairs": 1,
+      "minecraft:bone": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 250135,
+      "minecraft:sprint_one_cm": 40528,
+      "minecraft:walk_one_cm": 270003,
+      "minecraft:mob_kills": 2,
+      "minecraft:drop": 6,
+      "minecraft:inspect_hopper": 49,
+      "minecraft:damage_dealt": 741,
+      "minecraft:swim_one_cm": 2685,
+      "minecraft:fly_one_cm": 869764,
+      "minecraft:open_chest": 19,
+      "minecraft:crouch_one_cm": 97329,
+      "minecraft:play_one_minute": 250135,
+      "minecraft:sneak_time": 44552,
+      "minecraft:walk_under_water_one_cm": 48188,
+      "minecraft:jump": 1183,
+      "minecraft:leave_game": 117,
+      "minecraft:walk_on_water_one_cm": 3569,
+      "minecraft:time_since_death": 250135,
+      "minecraft:climb_one_cm": 9514
     },
     "minecraft:used": {
       "minecraft:creeper_spawn_egg": 3,
       "minecraft:piston": 7,
       "minecraft:water_bucket": 11,
-      "onesblocks2:candle": 58,
+      "onesblocks2:candle": 65,
       "onesblocks2:vase": 54,
       "minecraft:flint_and_steel": 1,
       "minecraft:dead_bush": 6,
@@ -37,8 +80,8 @@
       "minecraft:diamond_sword": 12,
       "onesblocks2:skull_dunestone_pillar": 14,
       "minecraft:snow": 199,
-      "minecraft:iron_trapdoor": 2,
       "minecraft:hopper": 8,
+      "minecraft:iron_trapdoor": 2,
       "minecraft:scaffolding": 379,
       "minecraft:dark_oak_pressure_plate": 1,
       "onesblocks2:dunestone_slab": 37,
@@ -49,49 +92,6 @@
       "minecraft:campfire": 8,
       "minecraft:sea_pickle": 61,
       "minecraft:stone_pressure_plate": 1
-    },
-    "minecraft:picked_up": {
-      "minecraft:scaffolding": 154,
-      "minecraft:cut_sandstone": 1392,
-      "minecraft:torch": 2,
-      "minecraft:sand": 83,
-      "minecraft:stone_button": 1,
-      "onesblocks2:dunestone_stairs": 1,
-      "minecraft:cactus": 1,
-      "minecraft:arrow": 4,
-      "minecraft:bone": 3,
-      "onesblocks2:dunestone_pillar": 2,
-      "minecraft:sea_pickle": 1,
-      "minecraft:creeper_spawn_egg": 1,
-      "onesblocks2:big_vase": 1,
-      "minecraft:chest": 320
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 245541,
-      "minecraft:sprint_one_cm": 40000,
-      "minecraft:walk_one_cm": 266716,
-      "minecraft:mob_kills": 2,
-      "minecraft:drop": 6,
-      "minecraft:inspect_hopper": 49,
-      "minecraft:damage_dealt": 741,
-      "minecraft:swim_one_cm": 2685,
-      "minecraft:fly_one_cm": 867911,
-      "minecraft:open_chest": 19,
-      "minecraft:crouch_one_cm": 97232,
-      "minecraft:play_one_minute": 245541,
-      "minecraft:sneak_time": 44486,
-      "minecraft:walk_under_water_one_cm": 48188,
-      "minecraft:jump": 1166,
-      "minecraft:leave_game": 113,
-      "minecraft:walk_on_water_one_cm": 3569,
-      "minecraft:time_since_death": 245541,
-      "minecraft:climb_one_cm": 9514
-    },
-    "minecraft:dropped": {
-      "onesblocks2:dunestone_pillar": 2,
-      "minecraft:arrow": 3,
-      "onesblocks2:dunestone_stairs": 1,
-      "minecraft:bone": 2
     }
   },
   "DataVersion": 2230

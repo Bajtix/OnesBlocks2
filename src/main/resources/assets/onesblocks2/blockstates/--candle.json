@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=north,vase=1": {
-      "model": "onesblocks2:block/candle0_north"
+      "model": "onesblocks2:block/candle2_north"
     },
     "facing=south,vase=1": {
       "model": "onesblocks2:block/candle0_south"

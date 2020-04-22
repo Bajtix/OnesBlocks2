@@ -77,7 +77,6 @@ public class BlockList {
     public static Block candle = new VaseBlocks(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
             .sound(SoundType.STONE)
-            .variableOpacity()
             .lightValue(10)
     ).setRegistryName(MainClass.location("candle"));
 
