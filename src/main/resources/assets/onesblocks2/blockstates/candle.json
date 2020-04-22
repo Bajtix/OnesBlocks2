@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,vase=1": {
+      "model": "onesblocks2:block/candle2_north"
+    },
+    "facing=south,vase=1": {
+      "model": "onesblocks2:block/candle0_south"
+    },
+    "facing=east,vase=1": {
+      "model": "onesblocks2:block/candle0_east"
+    },
+    "facing=west,vase=1": {
+      "model": "onesblocks2:block/candle0_west"
+    },
+    "facing=north,vase=2": {
+      "model": "onesblocks2:block/candle1_north"
+    },
+    "facing=south,vase=2": {
+      "model": "onesblocks2:block/candle1_south"
+    },
+    "facing=east,vase=2": {
+      "model": "onesblocks2:block/candle1_east"
+    },
+    "facing=west,vase=2": {
+      "model": "onesblocks2:block/candle1_west"
+    },
+    "facing=north,vase=3": {
+      "model": "onesblocks2:block/candle2_north"
+    },
+    "facing=south,vase=3": {
+      "model": "onesblocks2:block/candle2_south"
+    },
+    "facing=east,vase=3": {
+      "model": "onesblocks2:block/candle2_east"
+    },
+    "facing=west,vase=3": {
+      "model": "onesblocks2:block/candle2_west"
+    }
+  }
+}

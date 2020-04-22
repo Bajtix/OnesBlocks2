@@ -1,21 +1,31 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:jump": 22,
-      "minecraft:time_since_rest": 2786,
-      "minecraft:crouch_one_cm": 506,
-      "minecraft:play_one_minute": 2786,
-      "minecraft:sprint_one_cm": 2765,
-      "minecraft:leave_game": 2,
-      "minecraft:time_since_death": 2786,
-      "minecraft:walk_one_cm": 4189,
-      "minecraft:sneak_time": 235,
-      "minecraft:fly_one_cm": 9060
-    },
     "minecraft:used": {
+      "onesblocks2:elfium_block": 4,
       "onesblocks2:tin_block": 4,
+      "minecraft:sticky_piston": 1,
       "onesblocks2:elfium_ore": 11,
-      "onesblocks2:elfium_block": 4
+      "minecraft:lever": 1,
+      "minecraft:jungle_leaves": 5,
+      "minecraft:stone": 4,
+      "onesblocks2:vase": 27,
+      "onesblocks2:big_vase": 31
+    },
+    "minecraft:custom": {
+      "minecraft:jump": 114,
+      "minecraft:time_since_rest": 23865,
+      "minecraft:crouch_one_cm": 4066,
+      "minecraft:play_one_minute": 23865,
+      "minecraft:leave_game": 16,
+      "minecraft:sprint_one_cm": 5920,
+      "minecraft:time_since_death": 23865,
+      "minecraft:walk_one_cm": 12782,
+      "minecraft:sneak_time": 3642,
+      "minecraft:climb_one_cm": 3882,
+      "minecraft:fly_one_cm": 34903
+    },
+    "minecraft:picked_up": {
+      "onesblocks2:tin_block": 37
     }
   },
   "DataVersion": 2230

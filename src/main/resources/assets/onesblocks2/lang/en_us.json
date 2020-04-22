@@ -12,7 +12,11 @@
   "block.onesblocks2.vine_overlay": "Vine Overlay",
   "block.onesblocks2.tin_ore": "Tin Ore",
   "block.onesblocks2.tin_block": "Tin Block",
+  "block.onesblocks2.bronze_block": "Bronze Block",
   "block.onesblocks2.mithril_block": "Mithril Block",
+  "item.onesblocks2.bronze_ingot": "Bronze Ingot",
+  "item.onesblocks2.tin_ingot": "Tin Ingot",
+  "item.onesblocks2.mithril_ingot": "Mithril Ingot",
   "block.onesblocks2.copper_block": "Copper Block",
   "item.onesblocks2.sandstone_brick": "Sandstone Brick",
   "item.onesblocks2.bronze_ignot": "Bronze Ignot",
@@ -46,5 +50,15 @@
   "item.onesblocks2.elfium_axe": "Elfium Axe",
   "item.onesblocks2.elfium": "Elfium",
   "item.onesblocks2.elfium_boots": "Elfium Boots",
-  "block.onesblocks2.vase": "Vase"
+  "block.onesblocks2.vase": "Vase",
+  "block.onesblocks2.sandstone_bricks_stairs": "Sandstone Brick Stairs",
+  "block.onesblocks2.sandstone_bricks_slab": "Sandstone Brick Slab",
+  "block.onesblocks2.dunestone": "Dunestone",
+  "block.onesblocks2.skull_dunestone": "Chiseled Dunestone",
+  "block.onesblocks2.dunestone_pillar": "Dunestone Pillar",
+  "block.onesblocks2.skull_dunestone_pillar": "Chiseled Dunestone Pillar",
+  "block.onesblocks2.dunestone_pillar_connector": "Dunestone Pillar Connector",
+  "block.onesblocks2.big_vase": "Large Vase",
+  "block.onesblocks2.dunestone_stairs": "Dunestone Stairs",
+  "block.onesblocks2.dunestone_slab": "Dunestone Slab"
 }

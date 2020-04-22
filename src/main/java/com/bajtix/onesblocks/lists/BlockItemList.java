@@ -20,9 +20,18 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("sandstone_bricks_slab"));
 
+
     public static Item dunestone = new BlockItem(BlockList.dunestone, new Item.Properties()
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("dunestone"));
+
+    public static Item chiseled_dunestone = new BlockItem(BlockList.chiseled_dunestone, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("skull_dunestone"));
+
+    public static Item dunestone_pillar_connector = new BlockItem(BlockList.dunestone_pillar_connector, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("dunestone_pillar_connector"));
 
     public static Item dunestone_stairs = new BlockItem(BlockList.dunestone_stairs, new Item.Properties()
             .group(MainClass.mainGroup)
@@ -36,6 +45,10 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("dunestone_pillar"));
 
+    public static Item chiseled_dunestone_pillar = new BlockItem(BlockList.chiseled_dunestone_pillar, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("skull_dunestone_pillar"));
+
 
     public static Item mossy_stone = new BlockItem(BlockList.mossy_stone, new Item.Properties()
             .group(MainClass.mainGroup)
@@ -45,11 +58,13 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("vase"));
 
+    public static Item candle = new BlockItem(BlockList.candle, new Item.Properties()
+            .group(MainClass.mainGroup)
+    ).setRegistryName(MainClass.location("candle"));
+
     public static Item big_vase = new BlockItem(BlockList.big_vase, new Item.Properties()
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("big_vase"));
-
-
 
 
     //Ore blocks
@@ -100,9 +115,12 @@ public class BlockItemList {
             mossy_stone,
             sandstone_bricks_stairs,
             dunestone,
+            dunestone_pillar_connector,
             dunestone_stairs,
             dunestone_slab,
             dunestone_pillar,
+            chiseled_dunestone,
+            chiseled_dunestone_pillar,
             elfium_ore,
             mithril_ore,
             copper_ore,
@@ -114,6 +132,7 @@ public class BlockItemList {
             elfium_block,
             bronze_block,
             vase,
+            candle,
             big_vase,
             sandstone_bricks_slab
     };

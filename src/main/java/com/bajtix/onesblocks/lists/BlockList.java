@@ -36,6 +36,14 @@ public class BlockList {
             .sound(SoundType.STONE)
     ).setRegistryName(MainClass.location("dunestone"));
 
+    public static Block dunestone_pillar_connector = new Block(
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("dunestone_pillar_connector"));
+
+    public static Block chiseled_dunestone = new Block(
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("skull_dunestone"));
+
     public static Block dunestone_slab = new SlabBlock(
             Block.Properties.from(dunestone)
     ).setRegistryName(MainClass.location("dunestone_slab"));
@@ -47,6 +55,10 @@ public class BlockList {
     public static Block dunestone_pillar = new RotatedPillarBlock(
             Block.Properties.from(dunestone)
     ).setRegistryName(MainClass.location("dunestone_pillar"));
+
+    public static Block chiseled_dunestone_pillar = new RotatedPillarBlock(
+            Block.Properties.from(dunestone)
+    ).setRegistryName(MainClass.location("skull_dunestone_pillar"));
 
 
     public static Block mossy_stone = new Block(Block.Properties.create(Material.ROCK)
@@ -61,6 +73,13 @@ public class BlockList {
             .func_226896_b_()
             .variableOpacity()
     ).setRegistryName(MainClass.location("vase"));
+
+    public static Block candle = new VaseBlocks(Block.Properties.create(Material.ROCK)
+            .hardnessAndResistance(2.0f, 3.0f)
+            .sound(SoundType.STONE)
+            .variableOpacity()
+            .lightValue(10)
+    ).setRegistryName(MainClass.location("candle"));
 
     public static Block big_vase = new DoubleVaseBlock(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
@@ -132,15 +151,19 @@ public class BlockList {
                     sandstone_bricks,
                     sandstone_bricks_stairs,
                     sandstone_bricks_slab,
-                    dunestone_pillar,
 
                     dunestone,
+                    dunestone_pillar_connector,
+                    chiseled_dunestone,
                     dunestone_stairs,
                     dunestone_slab,
+                    dunestone_pillar,
+                    chiseled_dunestone_pillar,
 
                     mossy_stone,
 
                     vase,
+                    candle,
                     big_vase,
 
                     elfium_ore,

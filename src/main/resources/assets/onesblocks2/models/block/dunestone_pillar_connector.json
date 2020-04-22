@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "onesblocks2:block/dunestone_pillar_connector"
+  }
+}
