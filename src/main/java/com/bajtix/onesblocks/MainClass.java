@@ -1,5 +1,6 @@
 package com.bajtix.onesblocks;
 
+import com.bajtix.onesblocks.MainItemGroup;
 import com.bajtix.onesblocks.lists.*;
 import com.bajtix.onesblocks.world.OreGeneration;
 import net.minecraft.block.Block;
