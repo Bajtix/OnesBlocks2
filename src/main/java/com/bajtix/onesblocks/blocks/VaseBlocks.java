@@ -26,6 +26,7 @@ import java.util.stream.Stream;
 public class VaseBlocks extends Block {
 
     public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
     private static final Optional<VoxelShape> SHAPE = Stream.of(
             Block.makeCuboidShape(2, 0, 2, 14, 5, 14)
     ).reduce((v1, v2) -> {
@@ -33,10 +34,8 @@ public class VaseBlocks extends Block {
     });
     public static IntegerProperty COUNT = ModBlockStateProperties.VASE_COUNT;
 
-
     public VaseBlocks(Properties p_i48440_1_) {
         super(p_i48440_1_);
-
         this.setDefaultState(this.getStateContainer().getBaseState().with(FACING, Direction.NORTH).with(COUNT, 1));
     }
 

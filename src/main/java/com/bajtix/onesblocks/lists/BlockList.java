@@ -77,7 +77,7 @@ public class BlockList {
     public static Block candle = new VaseBlocks(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
             .sound(SoundType.STONE)
-            .lightValue(10)
+            .lightValue(16)
     ).setRegistryName(MainClass.location("candle"));
 
     public static Block big_vase = new DoubleVaseBlock(Block.Properties.create(Material.ROCK)
