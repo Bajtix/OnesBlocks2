@@ -11,7 +11,7 @@ public class ItemList {
 
     public static Item sandstone_brick = new Item(new Item.Properties()
             .group(MainClass.mainGroup)
-    ).setRegistryName(MainClass.location("sandstone_brick"));
+    );
 
     public static Item tin_ingot = new Item(new Item.Properties()
             .group(MainClass.mainGroup)
@@ -29,7 +29,7 @@ public class ItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("bronze_ingot"));
 
-
+    /*
     public static Item[] items = new Item[]
             {
                     sandstone_dust,
@@ -39,5 +39,7 @@ public class ItemList {
                     mithril_ingot,
                     bronze_ingot
             };
+
+     */
 
 }

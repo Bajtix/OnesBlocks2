@@ -110,6 +110,7 @@ public class BlockItemList {
             .group(MainClass.mainGroup)
     ).setRegistryName(MainClass.location("bronze_block"));
 
+    /*
     public static Item[] items = new Item[]{
             sandstone_bricks,
             mossy_stone,
@@ -136,4 +137,6 @@ public class BlockItemList {
             big_vase,
             sandstone_bricks_slab
     };
+
+     */
 }
