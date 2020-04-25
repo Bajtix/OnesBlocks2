@@ -21,7 +21,7 @@ public class BlockList {
     public static Block sandstone_bricks = new Block(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
             .sound(SoundType.STONE)
-    ).setRegistryName(MainClass.location("sandstone_bricks"));
+    );
 
     public static Block sandstone_bricks_slab = new SlabBlock(
             Block.Properties.from(sandstone_bricks)
@@ -72,7 +72,7 @@ public class BlockList {
             .sound(SoundType.STONE)
             .func_226896_b_()
             .variableOpacity()
-    ).setRegistryName(MainClass.location("vase"));
+    );
 
     public static Block candle = new VaseBlocks(Block.Properties.create(Material.ROCK)
             .hardnessAndResistance(2.0f, 3.0f)
@@ -143,7 +143,7 @@ public class BlockList {
             .sound(SoundType.STONE)
     ).setRegistryName(MainClass.location("bronze_block"));
 
-    public static Block[] blocks = new Block[]
+    /*public static Block[] blocks = new Block[]
             {
                     utility_space,
 
@@ -177,5 +177,5 @@ public class BlockList {
                     elfium_block,
                     bronze_block
 
-            };
+            };*/
 }

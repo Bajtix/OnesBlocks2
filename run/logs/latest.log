@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [25kwi2020 22:08:05.644] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200307.202953, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.37, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\kwwil\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
 [25kwi2020 22:08:05.650] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_252 by Amazon.com Inc.
 [25kwi2020 22:08:05.857] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
@@ -9,24 +10,245 @@
 
 Time: 25.04.20 22:08
 Description: Initializing game
+=======
+[25kwi2020 22:58:32.147] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200307.202953, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.37, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\bajti\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25kwi2020 22:58:32.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0+68+master.79f13f7 starting: java version 1.8.0_181 by Oracle Corporation
+[25kwi2020 22:58:32.342] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[25kwi2020 22:58:33.020] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\bajti\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25kwi2020 22:58:34.521] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25kwi2020 22:58:41.894] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[25kwi2020 22:58:43.150] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.37, for MC 1.15.2 with MCP 20200307.202953
+[25kwi2020 22:58:43.150] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.37 Initialized
+[25kwi2020 22:58:43.338] [Render thread/INFO] [onesblocks2/]: Blocks registered
+[25kwi2020 22:58:43.342] [Render thread/INFO] [onesblocks2/]: Items registered
+[25kwi2020 22:58:44.834] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[25kwi2020 22:58:44.903] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[25kwi2020 22:58:44.925] [modloading-worker-3/INFO] [onesblocks2/]: Setup Function registered
+[25kwi2020 22:58:45.010] [modloading-worker-1/INFO] [onesblocks2/]: Client Function registered
+[25kwi2020 22:58:45.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[25kwi2020 22:58:45.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.37 Target: 31.1.49
+[25kwi2020 22:58:48.850] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[25kwi2020 22:58:48.850] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[25kwi2020 22:58:48.964] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[25kwi2020 22:58:49.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[25kwi2020 22:58:49.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[25kwi2020 22:58:49.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[25kwi2020 22:58:49.001] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[25kwi2020 22:58:49.001] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[25kwi2020 22:58:49.001] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25kwi2020 22:58:49.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[25kwi2020 22:58:49.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25kwi2020 22:58:49.313] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25kwi2020 22:58:49.963] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[25kwi2020 22:59:22.779] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25kwi2020 22:59:22.780] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:22.780] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:22.781] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25kwi2020 22:59:22.781] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:22.879] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[25kwi2020 22:59:22.879] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[25kwi2020 22:59:22.982] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[25kwi2020 22:59:23.019] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:big_vase
+[25kwi2020 22:59:23.019] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:bronze_block
+[25kwi2020 22:59:23.019] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:copper_ore
+[25kwi2020 22:59:23.020] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:elfium_block
+[25kwi2020 22:59:23.020] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:elfium_ore
+[25kwi2020 22:59:23.020] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:mithril_block
+[25kwi2020 22:59:23.020] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:mithril_ore
+[25kwi2020 22:59:23.020] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:mossy_stone
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:sandstone_bricks_slab
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:sandstone_bricks_stairs
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:tin_block
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:tin_ore
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:titanium_block
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:titanium_ore
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:utility
+[25kwi2020 22:59:23.021] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:vase
+[25kwi2020 22:59:23.022] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:big_vase
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:bronze_block
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:bronze_ingot
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:copper_ore
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_axe
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_block
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_hoe
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_ore
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_pickaxe
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_shovel
+[25kwi2020 22:59:23.023] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:elfium_sword
+[25kwi2020 22:59:23.024] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:mithril_block
+[25kwi2020 22:59:23.024] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:mithril_ingot
+[25kwi2020 22:59:23.024] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:mithril_ore
+[25kwi2020 22:59:23.024] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:mossy_stone
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_axe
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_bricks_slab
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_bricks_stairs
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_dust
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_hoe
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_pickaxe
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_shovel
+[25kwi2020 22:59:23.025] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:sandstone_sword
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:tin_block
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:tin_ingot
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:tin_ore
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:titanium_block
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:titanium_ore
+[25kwi2020 22:59:23.026] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world onesblocks2:vase
+[25kwi2020 22:59:23.036] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	onesblocks2:tin_block: 692
+	onesblocks2:copper_ore: 688
+	onesblocks2:big_vase: 684
+	onesblocks2:titanium_block: 690
+	onesblocks2:utility: 680
+	onesblocks2:mithril_ore: 686
+	onesblocks2:sandstone_bricks_slab: 696
+	onesblocks2:titanium_ore: 687
+	onesblocks2:mossy_stone: 682
+	onesblocks2:vase: 683
+	onesblocks2:sandstone_bricks_stairs: 695
+	onesblocks2:tin_ore: 689
+	onesblocks2:bronze_block: 694
+	onesblocks2:elfium_ore: 685
+	onesblocks2:mithril_block: 691
+	onesblocks2:elfium_block: 693
 
-java.lang.NoSuchMethodError: java.nio.ByteBuffer.rewind()Ljava/nio/ByteBuffer;
-	at net.minecraft.client.MainWindow.loadIcon(MainWindow.java:188) ~[forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
-	at net.minecraft.client.MainWindow.setWindowIcon(MainWindow.java:152) ~[forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:380) ~[forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
-	at net.minecraft.client.main.Main.main(Main.java:141) ~[forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252] {}
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252] {}
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252] {}
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252] {}
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?] {}
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?] {}
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?] {}
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar:?] {}
+[25kwi2020 22:59:23.036] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	onesblocks2:sandstone_sword: 908
+	onesblocks2:mossy_stone: 885
+	onesblocks2:sandstone_pickaxe: 906
+	onesblocks2:elfium_axe: 912
+	onesblocks2:elfium_shovel: 915
+	onesblocks2:big_vase: 898
+	onesblocks2:elfium_hoe: 914
+	onesblocks2:copper_ore: 889
+	onesblocks2:vase: 897
+	onesblocks2:mithril_ingot: 904
+	onesblocks2:bronze_ingot: 905
+	onesblocks2:sandstone_shovel: 910
+	onesblocks2:bronze_block: 896
+	onesblocks2:titanium_block: 892
+	onesblocks2:sandstone_hoe: 909
+	onesblocks2:elfium_sword: 913
+	onesblocks2:titanium_ore: 890
+	onesblocks2:tin_ore: 891
+	onesblocks2:elfium_block: 895
+	onesblocks2:tin_block: 894
+	onesblocks2:mithril_ore: 888
+	onesblocks2:elfium_pickaxe: 911
+	onesblocks2:sandstone_dust: 900
+	onesblocks2:mithril_block: 893
+	onesblocks2:sandstone_bricks_stairs: 886
+	onesblocks2:sandstone_axe: 907
+	onesblocks2:elfium_ore: 887
+	onesblocks2:sandstone_bricks_slab: 899
+	onesblocks2:elfium: 903
+	onesblocks2:tin_ingot: 902
+>>>>>>> 7cad8d29b7a937df879c4e11f184c4593f3e10c6
 
+[25kwi2020 22:59:24.643] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[25kwi2020 22:59:24.739] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar, main
+[25kwi2020 22:59:25.239] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe onesblocks2:sandstone_brick
+com.google.gson.JsonSyntaxException: Unknown item 'onesblocks2:sandstone_dust'
+	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$12(Ingredient.java:214) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_181]
+	at net.minecraft.item.crafting.Ingredient.deserializeItemList(Ingredient.java:213) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeKey(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:274) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_181]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_181]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_181]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:17) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:137) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:120) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:77) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:96) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[25kwi2020 22:59:25.242] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[25kwi2020 22:59:26.472] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[25kwi2020 22:59:26.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25kwi2020 22:59:27.375] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25kwi2020 22:59:27.375] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25kwi2020 22:59:27.658] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 862 ms
+[25kwi2020 22:59:29.607] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25kwi2020 22:59:29.608] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25kwi2020 22:59:29.610] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[25kwi2020 22:59:31.349] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:tin_block is
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:elfium_ore is
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:tin_block is
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:elfium_block is
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:vase is
+[25kwi2020 22:59:31.382] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World 1\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what onesblocks2:big_vase is
+[25kwi2020 22:59:31.424] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:ae718d27] logged in with entity id 169 at (203.41593337578897, 120.27738878495299, 267.4368173517426)
+[25kwi2020 22:59:31.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25kwi2020 22:59:31.713] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25kwi2020 22:59:31.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World 1'/minecraft:overworld
+[25kwi2020 22:59:31.820] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 16 advancements
+[25kwi2020 22:59:32.075] [Server-Worker-11/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@19d537c8[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1898) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$4(SkinManager.java:90) ~[?:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) [?:1.8.0_181]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_181]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_181]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_181]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_181]
+[25kwi2020 22:59:33.792] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25kwi2020 22:59:33.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World 1'/minecraft:overworld
+[25kwi2020 22:59:34.300] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[25kwi2020 22:59:34.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25kwi2020 22:59:34.314] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[25kwi2020 22:59:34.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25kwi2020 22:59:34.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25kwi2020 22:59:34.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25kwi2020 22:59:34.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World 1'/minecraft:overworld
+[25kwi2020 22:59:34.566] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World 1): All chunks are saved
+[25kwi2020 22:59:34.576] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World 1): All chunks are saved
+[25kwi2020 22:59:37.415] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25kwi2020 22:59:37.415] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:37.416] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:37.416] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25kwi2020 22:59:37.417] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25kwi2020 22:59:37.418] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[25kwi2020 22:59:37.418] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[25kwi2020 22:59:37.447] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[25kwi2020 22:59:37.484] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world onesblocks2:vase
+[25kwi2020 22:59:37.489] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	onesblocks2:vase: 680
+
+<<<<<<< HEAD
 
 A detailed walkthrough of the error, its code path and all known details is as follows:
 ---------------------------------------------------------------------------------------
@@ -73,3 +295,73 @@ Details:
 	Type: Client (map_client.txt)
 	CPU: <unknown>
 [25kwi2020 22:08:23.969] [Render thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:printToSYSOUT:103]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\kwwil\Documents\repos\OnesBlocks2\run\.\crash-reports\crash-2020-04-25_22.08.23-client.txt
+=======
+[25kwi2020 22:59:38.539] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[25kwi2020 22:59:38.540] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: onesblocks2:sandstone_bricks Expected: 680 Got: 681
+[25kwi2020 22:59:38.607] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.37_mapped_stable_60-1.15-recomp.jar, main
+[25kwi2020 22:59:39.080] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe onesblocks2:sandstone_brick
+com.google.gson.JsonSyntaxException: Unknown item 'onesblocks2:sandstone_dust'
+	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$12(Ingredient.java:214) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_181]
+	at net.minecraft.item.crafting.Ingredient.deserializeItemList(Ingredient.java:213) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeKey(ShapedRecipe.java:254) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:278) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:274) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_181]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_181]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_181]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:17) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:137) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:120) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:77) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:96) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[25kwi2020 22:59:39.082] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[25kwi2020 22:59:39.459] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[25kwi2020 22:59:39.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25kwi2020 22:59:39.964] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25kwi2020 22:59:40.003] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25kwi2020 22:59:41.482] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25kwi2020 22:59:41.482] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25kwi2020 22:59:41.501] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[25kwi2020 22:59:41.880] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2389 ms
+[25kwi2020 22:59:41.922] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25kwi2020 22:59:41.922] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25kwi2020 22:59:41.922] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[25kwi2020 22:59:42.129] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[25kwi2020 22:59:42.136] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:5fcba8d5] logged in with entity id 494 at (83.27482022791389, 68.0, -80.50078362081697)
+[25kwi2020 22:59:42.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25kwi2020 22:59:42.233] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25kwi2020 22:59:42.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[25kwi2020 22:59:42.250] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[25kwi2020 22:59:54.075] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25kwi2020 22:59:54.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[25kwi2020 22:59:54.329] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[25kwi2020 22:59:54.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25kwi2020 22:59:54.341] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[25kwi2020 22:59:54.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25kwi2020 22:59:54.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25kwi2020 22:59:54.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25kwi2020 22:59:54.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[25kwi2020 22:59:54.509] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[25kwi2020 22:59:54.519] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[25kwi2020 22:59:55.038] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+>>>>>>> 7cad8d29b7a937df879c4e11f184c4593f3e10c6

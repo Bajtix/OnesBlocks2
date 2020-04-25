@@ -1,0 +1,172 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 06.04.20 21:22
+Description: Feature placement
+
+java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:388) ~[?:1.8.0_181] {}
+	at net.minecraft.world.gen.placement.CountRange.func_227453_a_(SourceFile:23) ~[?:?] {re:classloading}
+	at java.util.stream.IntPipeline$4$1.accept(IntPipeline.java:250) ~[?:1.8.0_181] {}
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:110) ~[?:1.8.0_181] {}
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693) ~[?:1.8.0_181] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_181] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_181] {}
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_181] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_181] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_181] {}
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_181] {}
+	at net.minecraft.world.gen.placement.Placement.place(Placement.java:76) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.placement.ConfiguredPlacement.place(SourceFile:36) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.place(SourceFile:21) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.place(SourceFile:14) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.place(SourceFile:53) ~[?:?] {re:classloading}
+	at net.minecraft.world.biome.Biome.decorate(Biome.java:281) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.gen.ChunkGenerator.decorate(ChunkGenerator.java:103) ~[?:?] {re:classloading}
+	at net.minecraft.world.chunk.ChunkStatus.lambda$static$9(ChunkStatus.java:74) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:195) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager.lambda$null$18(ChunkManager.java:519) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-2.0.24.jar:?] {}
+	at net.minecraft.world.server.ChunkManager.lambda$func_223156_b$20(ChunkManager.java:517) ~[?:?] {re:classloading,xf:OptiFine:default}
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952) ~[?:1.8.0_181] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926) ~[?:1.8.0_181] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_181] {}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.driveOne(SourceFile:83) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.driveWhile(SourceFile:123) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.run(SourceFile:91) ~[?:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) ~[?:1.8.0_181] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_181] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_181] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[?:1.8.0_181] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_181] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.Random.nextInt(Random.java:388)
+	at net.minecraft.world.gen.placement.CountRange.func_227453_a_(SourceFile:23)
+	at java.util.stream.IntPipeline$4$1.accept(IntPipeline.java:250)
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:110)
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at net.minecraft.world.gen.placement.Placement.place(Placement.java:76)
+	at net.minecraft.world.gen.placement.ConfiguredPlacement.place(SourceFile:36)
+	at net.minecraft.world.gen.feature.DecoratedFeature.place(SourceFile:21)
+	at net.minecraft.world.gen.feature.DecoratedFeature.place(SourceFile:14)
+	at net.minecraft.world.gen.feature.ConfiguredFeature.place(SourceFile:53)
+
+-- Feature --
+Details:
+	Id: minecraft:decorated
+	Description: < DecoratedFeature [minecraft:decorated] >
+Stacktrace:
+	at net.minecraft.world.biome.Biome.decorate(Biome.java:281)
+
+-- Generation --
+Details:
+	CenterX: -1
+	CenterZ: 0
+	Step: UNDERGROUND_ORES
+	Seed: 6537955960323944441
+	Biome: minecraft:swamp
+Stacktrace:
+	at net.minecraft.world.gen.ChunkGenerator.decorate(ChunkGenerator.java:103)
+	at net.minecraft.world.chunk.ChunkStatus.lambda$static$9(ChunkStatus.java:74)
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:195)
+
+-- Chunk to be generated --
+Details:
+	Location: -1,0
+	Position hash: 4294967295
+	Generator: net.minecraft.world.gen.OverworldChunkGenerator@5ae2f648
+Stacktrace:
+	at net.minecraft.world.server.ChunkManager.lambda$null$18(ChunkManager.java:519)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.world.server.ChunkManager.lambda$func_223156_b$20(ChunkManager.java:517)
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952)
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58)
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.driveOne(SourceFile:83)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:zombie (net.minecraft.entity.monster.ZombieEntity)
+	Entity ID: 32
+	Entity Name: Zombie
+	Entity's Exact location: -297.50, 20.00, -16.50
+	Entity's Block location: World: (-298,20,-17), Chunk: (at 6,1,15 in -19,-2; contains blocks -304,0,-32 to -289,255,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.guardEntityTick(World.java:539)
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:401)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:849)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:784)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:114)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:637)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 2140
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: New World
+	Level seed: -7124042368843752791
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: {}
+	Level spawn location: World: (-256,63,-80), Chunk: (at 0,3,0 in -16,-5; contains blocks -256,0,-80 to -241,255,-65), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 6206 game time, 6206 day time
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 38168 (now: false), thunder time: 99796 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1119277832 bytes (1067 MB) / 3715629056 bytes (3543 MB) up to 7621050368 bytes (7268 MB)
+	CPUs: 8
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.0.0-milestone.4+67+b1a340b
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-2.0.0-milestone.1-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.2-31.1.37_mapped_stable_60-1.15-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.1.37_mapped_stable_60-1.15-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.0.4-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.2-31.1.37_mapped_stable_60-1.15-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.1.37_mapped_stable_60-1.15-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/preview_OptiFine_1.15.2_HD_U_G1_pre13.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.15.2-31.1.37_mapped_stable_60-1.15-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 31.1
+	Forge: net.minecraftforge:31.1.37
+	FML Language Providers: 
+		javafml@31.1
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.15.2 DONE}
+		forge-1.15.2-31.1.37_mapped_stable_60-1.15.jar Forge {forge@31.1.37 DONE}
+		main One's Blocks {onesblocks2@NONE DONE}
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:forge (incompatible), mod:onesblocks2
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'
