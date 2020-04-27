@@ -1,11 +1,5 @@
-[25kwi2020 23:09:27.950] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200307.202953, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.37, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\kwwil\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[25kwi2020 23:09:27.961] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_252 by Amazon.com Inc.
-[25kwi2020 23:09:28.162] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[25kwi2020 23:09:29.506] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kwwil\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[25kwi2020 23:09:32.207] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[25kwi2020 23:09:45.215] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[25kwi2020 23:09:46.185] [Render thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:printToSYSOUT:103]: ---- Minecraft Crash Report ----
-// Who set us up the TNT?
+---- Minecraft Crash Report ----
+// Shall we play a game?
 
 Time: 25.04.20 23:09
 Description: Initializing game
@@ -72,4 +66,3 @@ Details:
 	Is Modded: Definitely; Client brand changed to 'forge'
 	Type: Client (map_client.txt)
 	CPU: <unknown>
-[25kwi2020 23:09:46.188] [Render thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:printToSYSOUT:103]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\kwwil\Documents\repos\OnesBlocks2\run\.\crash-reports\crash-2020-04-25_23.09.46-client.txt
